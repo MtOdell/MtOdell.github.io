@@ -3,6 +3,8 @@
     <meta charset="utf-8" />
     <title>My Profile</title>
     <link href="ProfileStyle.css" rel="stylesheet" />
+    <script src="Game.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js" defer></script>
 </head>
 <body class="demo-class container rcorners-full">
     <h1 class="main-header">Max's GitHub</h1>
@@ -15,27 +17,12 @@
             <li><a href="Game.html">A Game</a></li>
         </ul>
     </nav>
-    <h1>Projects</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Project Name</th>
-                <th>Description</th>
-                <th>Year</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Agile Project</td>
-                <td>Did some stuff with user stories</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>API Project</td>
-                <td>Made requests</td>
-                <td>2022</td>
-            </tr>
-        </tbody>
-    </table>
-    </body>
+    
+    <hr/>
+    <section id="Balloons">
+        <h2>Destroy balloons</h2>
+        <p>Score: <span id="score">0</span></p>
+    </section>
+
+</body>
 </html>

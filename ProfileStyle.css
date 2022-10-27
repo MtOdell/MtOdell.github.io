@@ -1,0 +1,98 @@
+﻿p{
+    font-size: 0.9rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+a:active{
+    color: darkslateblue;
+}
+
+.my-image {
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+    vertical-align: -35px;
+}
+
+h1{
+    display: inline;
+}
+
+.main-header{
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.demo-class{
+    background-color: f7f7f7;
+}
+
+* {
+    border-width: 1px;
+    font-family: 'Microsoft YaHei';
+    font-weight: lighter;
+    box-sizing: border-box;
+}
+
+.header{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.rcorners {
+    background-color: f7f7f7;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    width: fit-content;
+    height: auto;
+}
+
+.rcorners-full {
+    background-color: f7f7f7;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: fit-content;
+}
+
+.rcorners-list {
+    background-color: f7f7f7;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 27px;
+    width: fit-content;
+    height: auto;
+}
+
+.my-form{
+    padding: 10px;
+    margin: 10px;
+}
+
+#weather-search {
+    padding: 5px;
+    margin: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}

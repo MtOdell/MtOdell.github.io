@@ -1,44 +1,45 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+﻿<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <title>My Profile</title>
+    <link href="ProfileStyle.css" rel="stylesheet" />
 </head>
-<body>
-    <h1>Max's GitHub</h1>
+<body class="demo-class container rcorners-full">
+    <h1 class="main-header">Max's GitHub</h1>
+    <img class="my-image" src="Git.webp" alt="something" />
     <nav>
-        <ul>
+        <ul class="rcorners-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="https://www.linkedin.com/in/max-odell-391a93246/" target="_blank">LinkedIn</a></li>
+            <li><a href="Game.html">A Game</a></li>
         </ul>
     </nav>
-    <h2>This is my profile</h2>
+    <h2 class="header">This is my profile</h2>
     <div>
-        <h3>Skills</h3>
-        <ol>
+        <h3 class="header">Skills</h3>
+        <ul class="rcorners-list">
             <li>Python (the snake)</li>
             <li>C# (dont touch it you'll cut yourself)</li>
             <li>Adept at looking up stuff on Google, or perhaps even Bing</li>
-        </ol>
+        </ul>
     </div>
     <div>
-        <h3>Hobbies</h3>
-        <ol>
+        <h3 class="header">Hobbies</h3>
+        <ul class="rcorners-list">
             <li>Windsurfin'</li>
             <li>Piano, Man</li>
-        </ol>
-        <h3> Weather for surfin'</h3>
+        </ul>
+        <h3 class="header"> Weather for surfin'</h3>
         <form action="https://www.bbc.co.uk/weather/search" method="get" target="_blank">
-            <label for="WeatherSearch">Weather for:</label>
-            <input id="WeatherSearch" name="q" value="" />
+            <label for="weather-search">Weather for:</label>
+            <input id="weather-search" name="q" value="" />
             <input type="submit" value="Submit" />
         </form>
     </div>
     <div>
-        <h3>Goals</h3>
-        <p>My main goal is to blow up, and then act like I don't know nobody.</p>
+        <h3 class="header">Goals</h3>
+        <p class="rcorners">My main goal is to blow up, and then act like I don't know nobody.</p>
     </div>
     <footer>
         <small>Copyright &#169; Sparta G 2022</small>
